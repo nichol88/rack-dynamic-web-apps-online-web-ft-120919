@@ -2,7 +2,7 @@ class Application
 
   def call(env)
     resp = Rack::Response.new
-    resp.write "You win"
+    resp.write "You Win"
     resp.finish
   end
 
